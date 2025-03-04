@@ -18,7 +18,7 @@ colors = [RED, YELLOW, ORANGE, GREEN, TEAL, CYAN, BLUE, PURPLE, MAGENTA, GOLD, P
 
 pixels_num_of_lights = 10
 pixels = neopixel.NeoPixel(board.NEOPIXEL, pixels_num_of_lights, brightness=0.5)
-strip_num_of_lights = 20
+strip_num_of_lights = 30
 strip = neopixel.NeoPixel(board.A1, strip_num_of_lights, brightness=0.5)
 
 pixels.fill(BLACK)
